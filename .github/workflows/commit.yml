@@ -6,9 +6,6 @@ env:
   FOUNDRY_PROFILE: ci
 
 jobs:
-  check:
-    strategy:
-      fail-fast: true
   build:
     name: Foundry project
     runs-on: ubuntu-latest
