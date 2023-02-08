@@ -5,6 +5,7 @@ contract Counter {
     uint256 public number;
 
     address owner;
+
     constructor(address _owner) {
         owner = _owner;
     }
